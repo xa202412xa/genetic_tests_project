@@ -12,7 +12,7 @@
     
     3. Настройте базу данных PostgreSQL в settings.py:
 
-   # settings.py
+   settings.py
    DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.postgresql',
