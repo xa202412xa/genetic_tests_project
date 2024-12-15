@@ -12,17 +12,17 @@
     
     3. Настройте базу данных PostgreSQL в settings.py:
 
-   settings.py
-   DATABASES = {
-       'default': {
-           'ENGINE': 'django.db.backends.postgresql',
-           'NAME': 'your_db_name',  # Имя вашей базы данных
-           'USER': 'your_db_user',  # Имя пользователя PostgreSQL
-           'PASSWORD': 'your_password',  # Пароль пользователя PostgreSQL
-           'HOST': 'localhost',  # Адрес сервера базы данных
-           'PORT': '5432',  # Порт PostgreSQL (по умолчанию 5432)
+       settings.py
+       DATABASES = {
+           'default': {
+               'ENGINE': 'django.db.backends.postgresql',
+               'NAME': 'your_db_name',  # Имя вашей базы данных
+               'USER': 'your_db_user',  # Имя пользователя PostgreSQL
+               'PASSWORD': 'your_password',  # Пароль пользователя PostgreSQL
+               'HOST': 'localhost',  # Адрес сервера базы данных
+               'PORT': '5432',  # Порт PostgreSQL (по умолчанию 5432)
+           }
        }
-   }
 
     4. Создайте и примените миграции:
         
