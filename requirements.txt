@@ -1,0 +1,5 @@
+django
+djangorestframework 
+postgresql 
+postgresql-contrib
+psycopg2-binary
